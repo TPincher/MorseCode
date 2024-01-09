@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="Morse.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Montserrat:wght@500&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <script src="./index.js" type="module"></script>
+</head>
+<body>
+    <h1>Morse code translator</h1> 
+    <section>
+        <textarea id = "user-input" placeholder="Type your message here"></textarea>
+        <textarea id = "return-message" placeholder="And your converted text will appear here"></textarea>
+    </section>
+    <section id="lower-section">
+        <h2>Instructions</h2>
+        <p id="instructions-paragraph">
+            You can use this site to convert a message between English and Morse code.
+            <br>
+            <br>
+            To convert from English to Morse code, just start typing! Your converted message will appear on the right-hand panel.
+            <br>
+            <br>
+            You can use the Morse code library below to create your own messages, too. Just start typing in Morse code in the box above and your message will be automatically converted for you. Don't forget that letters in Morse code are separated with a
+            ' ' and words are separated by a single '/'
+            <br>
+            <br>
+            If you're entering a Morse code message, make sure to only use dots and dashes!
+        </p>
+        <h2>Morse code library</h2>
+        <div id="morse-library">
+            <table class="tables"></table>
+            <table class="tables"></table>
+            <table class="tables"></table>
+        </div>
+    </section>
+</body>
+</html>

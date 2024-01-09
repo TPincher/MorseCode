@@ -1,0 +1,67 @@
+* {
+    font-size: large;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+body {
+    background: linear-gradient(to right, #222222 5%, beige 30%, beige 70%, #222222 95%);
+    background-size: cover;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+#user-input,
+#return-message {
+    height: 20vh;
+    width: 50vw;
+    margin-bottom: 40px;
+    resize: none;
+}
+
+#lower-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#morse-library {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#instructions-paragraph{
+    margin-bottom: 100px;
+    width: 60%;
+    max-width: 800px;
+    justify-self: center;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th,
+tr,
+td {
+    width: 125px;
+    height: 20px;
+    border: 1px double black;
+    padding: 5px;
+    background-color: white;
+}
